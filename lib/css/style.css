@@ -1,0 +1,20 @@
+.more-content > .read-more-content {
+  display: none;
+}
+
+.more-content.show > .read-more-content {
+  display: block;
+}
+
+
+.more-content.show * > .read-more-link {
+  display: none;
+}
+
+.more-content a.read-more, .more-content a.read-less  {
+	/*border: none!important;*/
+}
+
+.no-preview.show > p {
+	display: none;	
+}
